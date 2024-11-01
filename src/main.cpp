@@ -287,7 +287,12 @@ volatile uint8_t    repeatcounter=0; // anzahl repeats
 
 
 // Functions
+uint32_t max(uint32_t a, volatile uint32_t b) 
+{
 
+return (a > b) ? a : b;
+
+}
 // rev
 // right
 uint8_t pfeil1[] = {200,20, 0, 0, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 222, 2, 0, 0, 1, 77, 0, 128, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0};

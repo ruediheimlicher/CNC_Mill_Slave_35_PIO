@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../CNC_Mill_Slave_3.5"
+		},
+		{
+			"name": "CNC_Mill_Slave_35_PIO",
+			"path": "."
+		},
+		{
+			"name": "CNC_Slave_32_SPI_Draw",
+			"path": "../CNC_Slave_32_SPI_Draw"
+		},
+		{
+			"name": "CNC_Slave_32_SPI_LCD",
+			"path": "../CNC_Slave_32_SPI_LCD"
+		}
+	],
+	"settings": {}
+}
